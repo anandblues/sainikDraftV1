@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sainik Security Services</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css4.1/bootstrapcustom.min.css" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+    <style>
+    
+        
+        .column {
+          float: left;
+          width: 33.3%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+        }
+        
+        .about-card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          margin: 8px;
+          padding: 1em;
+        }
+
+        .about-card h2 {
+            margin: 0.5em 0;
+        }
+        .about-card p {
+            margin: 0.5em 0;
+        }
+        
+        .about-section {
+          padding: 50px;
+          text-align: center;
+          background-color: #474e5d;
+          color: white;
+        }
+        
+        .container {
+          padding: 0 16px;
+        }
+        
+        .container::after, .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .title {
+          color: grey;
+        }
+        
+        .button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        .button:hover {
+          background-color: #555;
+        }
+        #more {display: none;}
+        
+        @media screen and (max-width: 650px) {
+          .column {
+            width: 100%;
+            display: block;
+          }
+        }
+        </style>
+
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="nav-background">
+            <div class="mobile-logo">
+                <img src="./images/logo.jpg" alt="">
+            </div>
+            <div class="mobile-nav">
+                <div class="cart">
+                    <div class="flex items-center">
+                        <!-- <img src="./icons/cart-dark.svg" alt=""> -->
+                        <a href="#">Sainik Security Services</a>
+                    </div>
+                </div>
+                <div class="nav-top">
+                    <ul>
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Products</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact us</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#">Log in</a>
+                        </li>
+                        <li>
+                            <a href="#">Register</a>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="contact flex items-center">
+                    <img src="./icons/phone.svg" alt="">
+                    <div>
+                        <h5>Call us: (+84) 123 456 789</h5>
+                        <h6>E-mail : support@freshmeal.com</h6>
+                    </div>
+                </div>
+                <div class="time flex items-center">
+                    <img src="./icons/clock.svg" alt="">
+                    <div>
+                        <h5>Working Hours:</h5>
+                        <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-content-wrapper">
+            <div class="nav-trigger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-bar-chart">
+                    <line x1="12" y1="20" x2="12" y2="10" />
+                    <line x1="18" y1="20" x2="18" y2="4" />
+                    <line x1="6" y1="20" x2="6" y2="16" /></svg>
+            </div>
+            <div class="site-content">
+                <header class="topbar">
+                    <div class="container flex justify-center items-center">
+                        Welcome to Sainik Security Services
+                        <!-- <div class="icons">
+                            <a href="#"><img src="./icons/facebook.svg" alt=""></a>
+                            <a href="#"><img src="./icons/twitter.svg" alt=""></a>
+                            <a href="#"><img src="./icons/google.svg" alt=""></a>
+                            <a href="#"><img src="./icons/instagram.svg" alt=""></a>
+                            <a href="#"><img src="./icons/search.svg" alt=""></a>
+                        </div>
+                        <div class="auth flex items-center">
+                            <div>
+                                <img src="./icons/user-icon.svg" alt="">
+                                <a href="#">Log in</a>
+                            </div>
+                            <span class="divider">|</span>
+                            <div>
+                                <img src="./icons/edit.svg" alt="">
+                                <a href="#">Register Now</a>
+                            </div>
+                            <span class="divider">|</span>
+                            <div>
+                                <img src="./icons/cart.svg" alt="">
+                                <a href="#">0 Items - ($0.00)</a>
+                            </div>
+                        </div> -->
+                    </div>
+                </header>
+
+                <nav>
+                    <div class="top">
+                        <div class="container flex justify-between">
+                            <div class="contact flex items-center">
+                                <img src="./icons/phone.svg" alt="">
+                                <div>
+                                    <h5>Call US: (+84) 123 456 789</h5>
+                                    <h6>E-mail : support@freshmeal.com</h6>
+                                </div>
+                            </div>
+                            <div class="branding">
+                                <img src="./images/logo.jpg" alt="">
+                            </div>
+                            <div class="time flex items-center">
+                                <img src="./icons/clock.svg" alt="">
+                                <div>
+                                    <h5>Working Hours:</h5>
+                                    <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar magic-shadow">
+                        <div class="container flex justify-center">
+                            <a href="./index.html">Home</a>
+                            <a href="#" class="active">About us</a>
+                            <a href="#">Products</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Shop</a>
+                            <a href="#services">Services</a>
+                            <a href="#">Gallery</a>
+                            <a href="./contact.html">Contact us</a>
+                        </div>
+                    </div>
+                </nav>
+
+              
+
+                <section class="contact-us flex">
+                    <div class="contact-info-wrapper">
+                        <h1 class="section-heading">About us</h1>
+                        
+                        <div class="about-section">
+                         
+                            <p>We are amongst the leading service providers in the field of security services. Our services are highly acknowledged for authenticity, proper delivery, and timely execution. Offered by us is a spectrum of quality services which encompasses commercial and residential security services, shopping mall security, industrial security, car park security, personal bodyguard services and many more.
+                                We render these services up to Six States with PSARA License i.e. Uttar Pradesh, Kolkata, New Delhi, Bihar, Jharkhand & Uttarakhand  to different organizations such as corporate business houses, legal agencies, banks, insurance companies, multinationals, co-operative firms, residencies, shopping malls, housing and co-operative societies and other organizations. We have a skilled workforce having in-depth knowledge required to carry out these services to the best of their abilities.
+                                </p>
+                           
+                          </div>
+                          
+                          <h2 style="text-align:center">Our Team</h2>
+                          <div class="row">
+                            <div class="column">
+                              <div class="about-card">
+                                <img src="/images/dir1.jpg" alt="Jane" style="width:100%">
+                                <div class="container">
+                                  <h2>Rt. Mj.N.B.Singh </h2>
+                                  <p class="title">Founder Director</p>
+                                  <p>The Sainik security service was established in the year 2000 and is owned by Rt. Mj.N.B.Singh and he has been guiding and managing the business and inspiring. <span id="dots">...</span><span id="more">To his credit are Various Awards and accreditations from various government. and private agencies of which he prominent are:</br>
+                                    <b>SENA MEDAL</b> in the War of 1971 and recommended for <b>Vishishth Sena Medal</b>.</br>
+                                    <b>Mahayodha award</b> for working extensively towards the welfare of Ex-army men in state of Maharashtra.He has previously served as the secretary of soldier board for 8 years (1991-1999).
+                                </span></p>
+                                <button class="btn-sm btn-wrapper" onclick="myFunction()" id="myBtn">Read more</button>
+                                  <p>+91-9336921587</p>
+                                  <p><button class="button">Contact</button></p>
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="column">
+                              <div class="about-card">
+                                <img src="/images/dir2.jpg" alt="Mike" style="width:100%">
+                                <div class="container">
+                                  <h2>Shri Gaurav Singh </h2>
+                                  <p class="title">Deputy  Director</p>
+                                  <p>Under his Leadership of the company has been achieving new heights, with his expertise in Management of assets and man power. He has been leading the company from the onset has detailed knowledge base for the efficient functioning and branding of Sainik Security services.
+                                  </br></br>
+                                  <p>+91-9415287382</p>
+                                  <p><button class="button">Contact</button></p>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="column">
+                              <div class="about-card">
+                                <img src="/images/mang.JPG" alt="John" style="width:100%">
+                                <div class="container">
+                                  <h2>Mr. Rajeev Singh </h2>
+                                  <p class="title">Manager</p>
+                                  <p>Mr. Rajeev Singh has been the pillar of operations and managing client relations for Sainik Security Services. He also wears the hat of our main business development officer due to his great understanding and standing in the industry.</p>
+                                  <p>+91-9918791000</p>
+                                  <p>+91-8004227295 </p>
+                                  <p><button class="button">Contact</button></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                   
+                </section>
+
+                
+
+                <footer>
+                    <div class="container">
+                        <div class="box">
+                            <h3>About us</h3>
+                            <p>It was popularised in the 1960 with the release of Latest sheets containing Lorem Ipsum
+                                passage.</p>
+                            <button class="btn btn-secondary">Read More</button>
+                        </div>
+                        <div class="box">
+                            <h3>Quik Links</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Products</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#">Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact us</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h3>Follow Us</h3>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/Sainik-security-services-varanasi-226793720829915/">
+                                            <img src="./icons/facebook.svg" alt="">
+                                            <span>Facebook</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./icons/twitter.svg" alt="">
+                                            <span>Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./icons/google.svg" alt="">
+                                            <span>Google +</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./icons/instagram.svg" alt="">
+                                            <span>Instagram</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="box instagram-api">
+                            <h3>Instagram</h3>
+                            <div class="post-wrap">
+                                <div>
+                                    <img src="./images/food-table.jpg" alt="">
+                                </div>
+                                <div>
+                                    <img src="./images/food-table.jpg" alt="">
+                                </div>
+                                <div>
+                                    <img src="./images/food-table.jpg" alt="">
+                                </div>
+                                <div>
+                                    <img src="./images/food-table.jpg" alt="">
+                                </div>
+                                <div>
+                                    <img src="./images/food-table.jpg" alt="">
+                                </div>
+                                <div>
+                                    <img src="./images/food-table.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <footer class="copyright">
+                    <div>
+                        Copyright © 2020 .All rights reserved by Mockmile</a>.
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
