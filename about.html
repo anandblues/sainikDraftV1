@@ -36,11 +36,33 @@
         
         .about-section {
           padding: 50px;
-          text-align: center;
-          background-color: #474e5d;
-          color: white;
+          font-family: "Raleway-medium";
+          background-color: #ffffff;
+          color: rgb(161, 161, 161);
         }
-        
+        .about-section h3{
+            color:rgb(238, 71, 71);
+        }
+        .params{
+            display:flex;
+            align-items: center;
+        }
+        .params img{
+            width:250px;
+        }
+        .sec{
+            margin: 50px 0;
+        }
+        #sec2{
+            text-align: right;
+        }
+        .client-logos{
+            align-items: center;
+        }
+        .client-logos img{
+            width:200px;
+            margin:20px 10px;
+        }
         .container {
           padding: 0 16px;
         }
@@ -78,6 +100,17 @@
             display: block;
           }
         }
+        @media (max-width: 576px) {
+            .params{
+            flex-direction: column;
+                       
+        }
+        #sec2,#sec1,#sec3{
+            text-align: center;
+            order:-1;
+        }
+        
+  }
         </style>
 
 </head>
@@ -227,10 +260,34 @@
                          
                             <p>We are amongst the leading service providers in the field of security services. Our services are highly acknowledged for authenticity, proper delivery, and timely execution. Offered by us is a spectrum of quality services which encompasses commercial and residential security services, shopping mall security, industrial security, car park security, personal bodyguard services and many more.
                                 We render these services up to Six States with PSARA License i.e. Uttar Pradesh, Kolkata, New Delhi, Bihar, Jharkhand & Uttarakhand  to different organizations such as corporate business houses, legal agencies, banks, insurance companies, multinationals, co-operative firms, residencies, shopping malls, housing and co-operative societies and other organizations. We have a skilled workforce having in-depth knowledge required to carry out these services to the best of their abilities.
-                                </p>
+                                </p><br>
+                                <p>Our experienced professionals are immensely talented and have vast industrial expertise. Their sincere efforts and commitment has enabled us to remain at par with our competitors in terms of quality services. Our professionals are well versed in diverse professional fields and are efficient in comprehending the client requirements within stipulated timeframe. The meticulous efforts of our workforce have helped us in upholding the market credibility and the confidence of our clients.</p><br>
+                                <div class="params">
+                                    <div id="sec1" class="sec">
+                                <h3>WE LISTEN:</h3><br>
+                                <p>We listen to our customers, their needs, to the needs of the staff members, as well as to the security needs of the guards. At SSS, we learn your business and what matters to your company, not just for today but for the future. Our listening tools are:</p>
+                            </div>
+                                <img src="/images/listen.PNG" alt="listening tools">
                            
-                          </div>
-                          
+                            </div>
+                            <div class="params">
+                                <img src="/images/measure.PNG" alt="training tools">
+                                <div id="sec2" class="sec">
+                            <h3>WE TRAIN:</h3><br>
+                            <p>We understand the importance of effective unarmed security guard training in order to meet and exceed the needs of its clients and officers, as well as the continually rising demands of homeland security initiatives. The training program is designed to allow each security officer the opportunity for a clear road to success. This entails three phases:</p>
+                        </div>
+                           
+                       
+                        </div>
+                        <div class="params">
+                            <div id="sec3" class="sec">
+                        <h3>WE MEASURE:</h3><br>
+                        <p>Our client certification is tangible evidence of our commitment to meaningful quality measurements. Our performance metrics are based on.</p>
+                    </div>
+                        <img src="/images/training.PNG" alt="measuring tools">
+                   
+                    </div>
+                            </div>
                           <h2 style="text-align:center">Our Team</h2>
                           <div class="row">
                             <div class="column">
@@ -282,6 +339,26 @@
                    
                 </section>
 
+                <section class="contact-us flex">
+                    <div class="contact-info-wrapper">
+                        <h1 class="section-heading">Our Esteemed Clients</h1>
+                        <div class="client-logos container">
+                        <img src="images/bob.png" alt="Bank of Baroda">
+                        
+                        <img src="images/BHEL.png" alt="Bank of Baroda">
+                        <img src="images/LIC.png" alt="Bank of Baroda">
+                        
+                        <img src="images/NTPC.png" alt="Bank of Baroda">
+                        <img src="images/NHAI.png" alt="Bank of Baroda">
+                        <img src="images/HPCL.png" alt="Bank of Baroda">
+                        <img src="images/BSNL.png" alt="Bank of Baroda">
+                        <img src="images/SAIL.png" alt="Bank of Baroda">
+                        <img src="images/SBI.png" alt="Bank of Baroda">
+                        <img src="images/DPS.jpg" alt="Bank of Baroda">
+                        
+                    </div>
+                    </div>
+                        </section>
                 
 
                 <footer>
