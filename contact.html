@@ -38,12 +38,12 @@
                         </li>
                         <li>
                             <a href="#">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">Shop</a>
                         </li> -->
                         <li>
-                            <a href="#services">Services</a>
+                            <a href="training.html">Training</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Services</a>
                         </li>
                         <li>
                             <a href="#">Contact us</a>
@@ -113,35 +113,35 @@
 
                 <nav>
                     <div class="top">
-                        <div id="branding" class="container flex justify-between">
-                            <div id="branding-nav" class="contact flex items-center">
-                                <!-- <img src="./icons/phone.svg" alt=""> -->
+                        <div id="branding" class="container flex justify-center">
+                            <!-- <div id="branding-nav" class="contact flex items-center">
+                                <img src="./icons/phone.svg" alt="">
                                 <div>
                                     <h5>Call us: </h5>
                         <h6>+91-9919001245</h6>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="branding">
                                 <a href="index.html"><img src="./images/logo.jpg" alt=""></a>
                             </div>
-                            <div id="branding-nav" class="time flex items-center">
-                                <!-- <img src="./icons/clock.svg" alt=""> -->
+                            <!-- <div id="branding-nav" class="time flex items-center">
+                                <img src="./icons/clock.svg" alt="">
                                 <div>
                                     <h5>E-mail:</h5>
                                     <h6>sainikservice221220@gmail.com</h6>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="navbar magic-shadow">
                         <div class="container flex justify-center">
-                            <a href="./index.html">Home</a>
+                            <a href="./index.html" >Home</a>
                             <a href="./about.html">About us</a>
                             <!-- <a href="#">Products</a>
                             <a href="#">Blog</a>
                             <a href="#">Shop</a> -->
-                            <a href="#services">Services</a>
-                            <a href="#">Gallery</a>
+                            <a href="./services.html">Services</a>
+                            <a href="./training.html">Training</a>
                             <a href="#" class="active">Contact us</a>
                         </div>
                     </div>
@@ -179,19 +179,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class="contact-form">
+                    <div class="contact-form" action="contactFormHandler.php" method="POST">
                         <h1 class="section-heading">Write to us</h1>
                         <form class="bootstrapiso">
                             <div class="form-group">
+                                <label for="exampleFormControlInput1">Your Name::</label>
+                                <input name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name...">
+                              </div>
+                            <div class="form-group">
                               <label for="exampleFormControlInput1">Your Email address::</label>
-                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                              <input name='email' type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                             </div>
                             
                             
                             <div class="form-group">
                               <label for="exampleFormControlTextarea1">Your Enquiry ::</label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              <textarea name='message' class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
+                            <button class="btn btn-primary" type="submit">Send</button>
                           </form>
                     </div>
                 </section>
@@ -219,15 +224,15 @@
                                 </li>
                                 <li>
                                     <a href="#">Blog</a>
-                                </li>
-                                <li>
-                                    <a href="#">Services</a>
                                 </li> -->
                                 <li>
-                                    <a href="#">Gallery</a>
+                                    <a href="./services.html">Services</a>
                                 </li>
                                 <li>
-                                    <a href="./contact.html">Contact us</a>
+                                    <a href="./training.html">Training</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact us</a>
                                 </li>
 
                             </ul>
