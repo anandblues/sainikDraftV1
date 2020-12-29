@@ -1077,3 +1077,51 @@ footer.copyright a {
 }
 
 /* Services page */
+.text-bg {
+  background-color: #ffffff;
+  transition: 1s;
+}
+.text-bg:hover {
+  background-color: #005da9;
+  color: white;
+}
+
+.img__wrap {
+  position: relative;
+  /* height: 200px; */
+  width: auto;
+}
+
+.img__description_layer {
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(36, 62, 206, 1);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: 1s;
+  transform: scaleX(-1);
+  padding-left: 10px;
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
