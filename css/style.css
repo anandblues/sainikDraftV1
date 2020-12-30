@@ -1015,6 +1015,12 @@ footer.copyright a {
     line-height: 1;
     margin-bottom: 1rem;
   }
+  #dirs {
+    flex-direction: column;
+  }
+  #dirs-col {
+    width: auto;
+  }
 }
 
 @media (max-width: 576px) {
