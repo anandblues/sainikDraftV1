@@ -526,6 +526,9 @@ section.about-meal p {
   line-height: 1.7;
   margin-bottom: 4rem;
 }
+#about-img {
+  justify-content: space-around;
+}
 
 section.our-services {
   background: var(--light);
@@ -533,7 +536,7 @@ section.our-services {
   z-index: 0;
 }
 section.our-services .card-wrapper {
-  margin-right: -2rem;
+  /* margin-right: -2rem; */
   margin-top: 8rem;
   justify-content: center;
   flex-wrap: wrap;
@@ -974,6 +977,7 @@ footer.copyright a {
   }
   .about-meal .about-meal-wrap {
     flex-direction: column;
+    align-items: center;
   }
   .about-meal .about-meal-wrap img {
     width: 100%;
@@ -1124,4 +1128,13 @@ footer.copyright a {
 
 .img__wrap:hover .img__description {
   transform: translateY(0);
+}
+
+#presence a {
+  color: white;
+  text-decoration: none;
+}
+
+#trainer-text li {
+  font-size: smaller;
 }
