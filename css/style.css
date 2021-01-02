@@ -763,7 +763,7 @@ section.contact-us .contact-info {
 }
 section.contact-us .contact-info > div > div {
   display: flex;
-  align-items: center;
+  align-items: justify;
   margin-bottom: 2rem;
 }
 section.contact-us .contact-info > div > div img {
@@ -777,7 +777,7 @@ section.contact-us .contact-info > div > div > div span:first-child {
   font-family: "Raleway-bold";
   margin-bottom: 0.25rem;
 }
-section.contact-us .contact-info > div > div > div span:nth-child(3) {
+section.contact-us .contact-info > div > div > div span:nth-child(4) {
   font-family: "Raleway-bold";
   margin-bottom: 0.25rem;
 }
