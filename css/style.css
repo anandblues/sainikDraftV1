@@ -777,6 +777,10 @@ section.contact-us .contact-info > div > div > div span:first-child {
   font-family: "Raleway-bold";
   margin-bottom: 0.25rem;
 }
+section.contact-us .contact-info > div > div > div span:nth-child(3) {
+  font-family: "Raleway-bold";
+  margin-bottom: 0.25rem;
+}
 footer {
   background: var(--footer);
   padding: 4rem 0;
