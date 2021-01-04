@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css4.1/bootstrapcustom.min.css" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="gallery-grid.css">
 </head>
 
 <body>
@@ -46,10 +49,10 @@
                             <a href="services.html">Services</a>
                         </li>
                         <li>
-                            <a href="#">Contact us</a>
+                            <a href="contact.html">Contact us</a>
                         </li>
                         <li>
-                            <a href="gallery.html">Gallery</a>
+                            <a href="#">Gallery</a>
                         </li>
                         <!-- <li>
                             <a href="#">Log in</a>
@@ -145,172 +148,79 @@
                             <a href="#">Shop</a> -->
                             <a href="./services.html">Services</a>
                             <a href="./training.html">Training</a>
-                            <a href="#" class="active">Contact us</a>
-                            <a href="./gallery.html">Gallery</a>
+                            <a href="./contact.html">Contact us</a>
+                            <a href="#" class="active">Gallery</a>
                         </div>
                     </div>
                 </nav>
 
               
+<div class="bootstrapiso">
+                <div class="container gallery-container">
 
-                <section class="contact-us flex container">
-                    <div class="contact-info-wrapper">
-                        <h1 class="section-heading">Contact us</h1>
-                        <div class="contact-info">
-                            <div>
-                                <div>
-                                    <img src="./icons/phone-2.svg" alt="">
-                                    <div>
-                                        <span>Call us:</span>
-                                        <span>0542-2505253 <br>+91-9918791000 <br>+91-9919001245 </span><br>
-                                        <span>Toll Free:</span>
-                                        <span>1800123001245</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <img src="./icons/bag-2.svg" alt="">
-                                    <div>
-                                        <span>E-mail :</span>
-                                        <span>security.sainik02@gmail.com</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <img src="./icons/clock-2.svg" alt="">
-                                    <div>
-                                        <span>Website:</span>
-                                        <span>www.sainiksecurityservices.com</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <img src="./icons/clock-21.svg" style="width:34px;" alt="">
-                                    <div>
-                                        <span>Head Office:</span>
-                                        <span>S20/53-33, BUDDHA VIHAR COLONY <br> 
-                                            THE MALL ROAD,CANTT. <br>VARANASI-221002</span>
-                                    </div>
-                                </div>
+                    <h1>Sainik Security Services</h1>
+                
+                    <p class="page-description text-center">Image Gallery</p>
+                    
+                    <div class="tz-gallery">
+                
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="images/residential_security.jpg">
+                                    <img src="images/residential_security.jpg" alt="Park">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="images/corporate.jpg">
+                                    <img src="images/corporate.jpg" alt="Bridge">
+                                </a>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <a class="lightbox" href="images/corporatesecurity.jpg">
+                                    <img src="images/corporatesecurity.jpg" alt="Tunnel">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="images/services9.png">
+                                    <img src="images/services9.png" alt="Coast">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="images/Facility.jpg">
+                                    <img src="images/Facility.jpg" alt="Rails">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="images/securitytraining1.jpg">
+                                    <img src="images/securitytraining1.jpg" alt="Traffic">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="images/securitytraining2.jpg">
+                                    <img src="images/securitytraining2.jpg" alt="Rocks">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="images/securitytraining3.jpg">
+                                    <img src="images/securitytraining3.jpg" alt="Benches">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="images/personal_security.jpg">
+                                    <img src="images/personal_security.jpg" alt="Sky">
+                                </a>
                             </div>
                         </div>
+                
                     </div>
-                    <div class="contact-form" action="contactFormHandler.php" method="POST">
-                        <h1 class="section-heading">Write to us</h1>
-                        <form class="bootstrapiso">
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Your Name::</label>
-                                <input name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name...">
-                              </div>
-                            <div class="form-group">
-                              <label for="exampleFormControlInput1">Your Email address::</label>
-                              <input name='email' type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                            </div>
-                            
-                            
-                            <div class="form-group">
-                              <label for="exampleFormControlTextarea1">Your Enquiry ::</label>
-                              <textarea name='message' class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <button class="btn btn-primary" type="submit">Send</button>
-                          </form>
-                    </div>
-                </section>
-
-                <section>
-                    <div id="presence" class="container">
-                        <h1 class="section-heading">Our Presence</h1>
-                        <div>
-                            
-                            <div class="bootstrapiso flex-1 table-responsive justify-center">
-                                
-                                <table class="table table-bordered table-hover table-striped">
-                                    
-                                    <tbody>
-                                      <tr>
-                                        <td><pre>
-Branch Office –<b>Lucknow(U.P)</b>
-Nawal Kishor Road, Hazaratgnaj, Lucknow
-Ph: <b>0522-2201245</b>
-Email: <b>sainik.lucknow @gmail.com</b>
-<b>Vinod Singh</b>
-<b>Jai Ram Yadav</b></pre> </td>
-                                        
-<td>
-    <pre>Branch Office- <b>Patna(Bihar)</b>
-5th Floor , Flat No. 504, Vrindavankunj Apartment
-Above shrawan Hotel, Exhibition Road, Patna-1
-Ph: <b>0612-2218109</b>
-<b>Mukesh Kumar</b>  
-<b>Akhileshwar Mishra</b>
-</pre>
-                                               
-  </td>
-                                   
-                                       
-                                      </tr>
-                                      <tr>
-                                        <td>
-                                            <pre>Branch Office – <b>Dehradun(Uttarakhand)</b>
-Nai Basti, Asha Rodi, Clementown, Dehradun
-Ph: <b>0135-2641245</b>
-<b>Rajendra Pathak</b>
-</pre>
-                                                                                       
-                                          </td>   
-                                        <td>
-<pre>
-Branch Office – <b>Noida(U.P)</b>
-The office Pass Sector 4, Noida UP 201301
-Ph: <b>9648111245</b>
-Email : <b>vidishasingh40@gmail.com</b>
-<b>Vidisha Singh</b></pre>
-                                            
-                                        </td>
-                                        
-                                      </tr>
-                                      <tr>
-                                        <td>
-                                            <pre>Branch office - <b>New Delhi</b>
-Plot No. 13, Block- N-1, Mohan Garden, Uttam Nagar,
-New Delhi-110059.
-Ph: <b>011-46001245</b>
-<b>Ankitesh Singh</b>
-</pre>
-                                                                                       
-                                          </td>
-                                          <td>
-                                            <pre>Branch Office - <b>Kolkata(West Bengal)</b>
-19 N.S. Road, Kolkata-700001
-Ph: <b>9830571020</b>
-Email: <b>sainik.kolkata@gmail.com</b>
-<b>Durgesh Verma</b>
-</pre>
-                                            </td>
-                                       
-                                                                                   
-                                      </tr>
-                                      <tr>
-                                        
-                                            <td>
-                                                <pre>Branch Office – <b>Bokaro(Jharkhand)</b>
-2nd Floor, Bokaro Steel City, Sector-IV, Bokaro 
-Ph: <b>0654-2233060</b>
-Email: <b>sainik.bokaro@gmail.com</b>
-<b>Ajeet Kumar</b>
-<b>S.M. Sharma</b></pre>
-                                                </td>
-                                        
-                                        
-                                      </tr>
-                                   
-                                     
-                                    </tbody>
-                                  </table>
-                                  
-                                <!-- <button class="btn btn-secondary"><a href="contact.html">Read More</a></button> -->
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
+                
+                </div>
+            </div>
+                
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+                <script>
+                    baguetteBox.run('.tz-gallery');
+                </script>
                 
 
                 <footer>
@@ -342,10 +252,10 @@ Email: <b>sainik.bokaro@gmail.com</b>
                                     <a href="./training.html">Training</a>
                                 </li>
                                 <li>
-                                    <a href="#">Contact us</a>
+                                    <a href="./contact.html">Contact us</a>
                                 </li>
                                 <li>
-                                    <a href="./gallery.html">Gallery</a>
+                                    <a href="#">Gallery</a>
                                 </li>
 
                             </ul>
@@ -418,13 +328,13 @@ Email: <b>sainik.bokaro@gmail.com</b>
 
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/app.js"></script> -->
 </body>
 
 </html>
